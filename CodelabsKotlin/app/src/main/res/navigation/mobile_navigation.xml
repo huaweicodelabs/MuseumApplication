@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.hms.codelabs.museum.ui.museumsearch.MuseumSearchFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_museum_search" />
+
+    <fragment
+        android:id="@+id/navigation_virtual_guide"
+        android:name="com.hms.codelabs.museum.ui.virtualguide.VirtualGuideFragment"
+        android:label="@string/title_virtual_guide"
+        tools:layout="@layout/fragment_virtual_guide" />
+
+</navigation>

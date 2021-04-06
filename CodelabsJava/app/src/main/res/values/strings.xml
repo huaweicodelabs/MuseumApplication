@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Museum Codelabs</string>
+    <string name="api_key">xxxxxxxxxxxxxx</string>
+    <string name="title_home">Home</string>
+    <string name="title_virtual_guide">Virtual Guide</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="virtual_guide_no_exhibits">No Nearby Exhibits</string>
+    <string name="virtual_guide_description">Description</string>
+    <string name="virtual_guide_exhibit_name">Exhibit Name:</string>
+    <string name="search_navigation">Navigation</string>
+    <string name="search_button_text">Search Nearby Museums</string>
+    <string name="kilometers">km</string>
+    <string name="notification_small_text">Nearby Museums</string>
+    <string name="notification_title">Nearby Museums</string>
+    <string name="notification_explore">Explore</string>
+    <string name="search_distance">Distance</string>
+    <string name="permissions_not_granted">This feature won\'t run without necessary permissions.</string>
+    <string name="search_range_setting">Search Range Setting:</string>
+</resources>
